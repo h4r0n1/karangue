@@ -5,7 +5,7 @@ import "./Carte.css";
 const Carte = () => {
   return (
     <div className="cardBody">
-      <h1>this is the card component</h1>
+      <h1>Scanner ce code pour vous connecter</h1>
       <div className="cardContainer">
         <div className="carte">
           <QRCode
