@@ -1,0 +1,152 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.title p {
+  text-shadow: 11px -7px 24px rgba(0, 0, 0, 0.74);
+}
+
+.section {
+  margin-top: 80px;
+}
+
+.section p {
+  font-size: 30px;
+  margin: 30px;
+}
+
+.search {
+  position: relative;
+}
+
+.search svg {
+  font-size: 25px;
+  cursor: pointer;
+}
+
+.cta_search input {
+  width: 355px;
+  height: 45px;
+  border-radius: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+  border: 1px solid red;
+}
+
+.cta_search input:focus {
+  outline: none;
+}
+
+.cta_search input::placeholder {
+  font-size: 19px;
+  line-height: 14px;
+  letter-spacing: 0.5px;
+}
+
+.cta_search > svg:first-child {
+  position: absolute;
+  top: 10px;
+  left: 20px;
+}
+
+.cta_search > svg:nth-child(3) {
+  position: absolute;
+  top: 10px;
+  left: 300px;
+}
+
+#hopitaux img {
+  width: 400px;
+  height: auto;
+}
+
+#myHospital {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.card {
+  margin: 25px 25px 25px 25px;
+  border: 1px solid #ffffff;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.card p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px auto;
+  font-size: 20px;
+}
+
+.card img {
+  top: 0;
+}
+
+.cardContent {
+  color: #ffffff;
+  text-align: center;
+  border: none;
+  background-color: rgb(8, 156, 200);
+}
+
+/* Media Queries for Tablets*/
+
+/* Media Queries for Mobile*/
+
+@media only screen and (max-width: 600px) {
+  .title p {
+    text-shadow: 11px -7px 24px rgba(0, 0, 0, 0.74);
+  }
+
+  .section {
+    margin: 0;
+  }
+
+  .search {
+    text-align: center;
+  }
+
+  .search svg {
+    font-size: 20px;
+    cursor: pointer;
+  }
+
+  .cta_search input {
+    width: 65%;
+    height: 40px;
+    border-radius: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border: 1px solid red;
+  }
+
+  .cta_search > svg:first-child {
+    position: absolute;
+    top: 25%;
+    left: 20%;
+  }
+
+  .cta_search > svg:nth-child(3) {
+    position: absolute;
+    top: 20%;
+    left: 75%;
+  }
+
+  #hopitaux img {
+    width: 100%;
+    height: auto;
+  }
+
+  #myHospital {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+  }
+}

@@ -1,0 +1,38 @@
+.top {
+    display: flex;
+    justify-content: space-between
+    }
+    .test{
+  color: red;
+}
+.test1{
+  color: blue;
+}
+.test2{
+  color: rgb(255, 123, 0);
+}
+.test3{
+  color: black;
+}
+.bodytop{
+  margin-top: 1%;
+}
+.bg-myLight {
+  background-color: #fff;
+}
+.image{
+    margin-left: 13%;
+    width: 67%;
+    margin-top: -5%;
+}
+.contact{
+    width: 40%;
+    margin-left: 27%;
+    margin-top: 2%;
+  
+    color: black;
+    border-radius: 0.5em;
+}
+.button1{
+   width: 20%;
+}
