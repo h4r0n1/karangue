@@ -26,13 +26,34 @@
     margin-top: -5%;
 }
 .contact{
-    width: 40%;
-    margin-left: 27%;
-    margin-top: 2%;
-  
+    width: 30%;
+    margin-left: 12%;
+    margin-top: 16%;
     color: black;
     border-radius: 0.5em;
 }
 .button1{
    width: 20%;
+}
+.page-footer{
+  background-color: rgb(82, 80, 80);
+}
+.Body{
+  width: 100%;
+  height: 24em;
+}
+.ecrit{
+  margin-top: -20%;
+  font-size: 4em;
+  text-align: center;
+  color: white;
+}
+.youtub{
+  color: rgba(240, 9, 9, 0.925);
+}
+.face{
+  color: blue;
+}
+.insta{
+  color: rgb(241, 100, 19);
 }
