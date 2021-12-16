@@ -21,19 +21,21 @@ const Sante = () => {
           </p>
         </div>
 
-        <div className="search">
-          <div className="cta_search">
-            <BiSearch />
-            <input type="search" placeholder="Recherche" />
-            <BsMic />
+        <div className="searchBox">
+          <div className="search">
+            <div className="cta_search">
+              <BiSearch />
+              <input type="search" placeholder="Recherche" />
+              <BsMic />
+            </div>
           </div>
         </div>
 
         {/** == == == Section Hopitaux == == == */}
-        <div id="hopitaux" className="section">
+        <div id="hopitaux">
           <div id="myHospital">
             <div className="card">
-              <img src={hopital} alt="Hopiatal" />
+              <img src={hopital} alt="Hopital" />
               <div className="cardContent">
                 <p>Dakar-Grand-Yoff</p>
               </div>

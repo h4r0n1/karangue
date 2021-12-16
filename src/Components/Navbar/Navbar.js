@@ -1,16 +1,17 @@
 import React from "react";
 import { Navbar, Nav, NavDropdown } from "react-bootstrap";
+import "./Navbar.css";
 
 import { Link } from "react-router-dom";
 
 const NavbarComponent = () => {
   return (
     <div>
-      <Navbar bg="light" variant="light" sticky="top" expand="lg">
+      <Navbar bg="transparent" variant="light" sticky="top" expand="lg">
         <Navbar.Brand>Karangue</Navbar.Brand>
         <Navbar.Toggle />
-        <Navbar.Collapse>
-          <Nav className="ms-auto">
+        <Navbar.Collapse className="text-end mx-4 fw-bold">
+          <Nav className="">
             <Nav.Link as={Link} to={"/"}>
               Acceuil
             </Nav.Link>

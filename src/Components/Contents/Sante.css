@@ -17,6 +17,11 @@
   margin: 30px;
 }
 
+.searchBox {
+  display: flex;
+  justify-content: flex-end;
+}
+
 .search {
   position: relative;
 }
@@ -57,16 +62,24 @@
   left: 300px;
 }
 
+#hopitaux {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 #hopitaux img {
-  width: 400px;
+  width: 350px;
   height: auto;
 }
 
 #myHospital {
   display: flex;
   align-items: center;
-  justify-content: flex-start;
+  justify-content: center;
   flex-wrap: wrap;
+  margin: 80px;
+  width: auto;
 }
 
 .card {
@@ -74,6 +87,7 @@
   border: 1px solid #ffffff;
   border-radius: 10px;
   cursor: pointer;
+  width: auto;
 }
 
 .card p {
