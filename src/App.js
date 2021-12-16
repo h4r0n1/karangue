@@ -5,10 +5,11 @@ import Sante from "./Components/Contents/Sante";
 import Remboursement from "./Components/Remboursement/Remboursement";
 import Carte from "./Components/Carte/Carte";
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
-import Footer from "./Components/Footer";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import Footer from "./Components/Footer/Footer";
 import "./App.css";
 import Contact from "./Components/Contact";
+import TransfertDoc from "./Components/Document/TransfertDoc";
 
 const App = () => {
   return (
@@ -20,6 +21,7 @@ const App = () => {
             <Route exact path="/remboursement" component={Remboursement} />
             <Route exact path="/footer" component={Footer} />
             <Route exact path="/contact" component={Contact} />
+            <Route exact path="/documents" component={TransfertDoc} />
             <Route exact path="/login" component={Login} />
             <Route exact path="/sante" component={Sante} />
             <Route exact path="/qrcard" component={Carte} />

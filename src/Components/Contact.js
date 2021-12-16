@@ -1,6 +1,6 @@
 import React from "react";
 import { Form, Button } from "react-bootstrap";
-import Footer from "./Footer";
+import Footer from "./Footer/Footer";
 import NavbarComponent from "./Navbar/Navbar";
 
 const Contact = () => {
@@ -39,7 +39,6 @@ const Contact = () => {
           <Button variant="secondary" href="/">
             Annuler
           </Button>{" "}
-          <h2></h2>
           <Button variant="success">Envoyer</Button>{" "}
         </div>
       </div>

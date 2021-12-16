@@ -1,7 +1,7 @@
 import React from "react";
 import { Navbar, Nav, NavDropdown } from "react-bootstrap";
 
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 const NavbarComponent = () => {
   return (
@@ -28,7 +28,9 @@ const NavbarComponent = () => {
               Sante
             </Nav.Link>
             <NavDropdown title="Document">
-              <NavDropdown.Item>Transmettre Document</NavDropdown.Item>
+              <NavDropdown.Item href="/documents">
+                Transmettre Document
+              </NavDropdown.Item>
             </NavDropdown>
             <Nav.Link as={Link} to={"/qrcard"}>
               Ma Carte

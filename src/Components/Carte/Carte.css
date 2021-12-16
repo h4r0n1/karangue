@@ -3,6 +3,11 @@
   min-height: 100vh;
 }
 
+.cardBody h1 {
+  text-align: center;
+  margin-top: 15px;
+}
+
 .cardContainer {
   display: flex;
   align-items: center;
