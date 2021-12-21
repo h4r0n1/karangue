@@ -12,16 +12,20 @@ import { MdOutlineEmergency } from "react-icons/md";
 import { FaMemory } from "react-icons/fa";
 import doctorw from "../../images/doctorw.jpg";
 function Sante() {
+      
+
+
+
   return (
     <div className=" container-sante">
       <div className="container-fluid sante justify-content-center pr-2">
         <h1 className="title">Sante</h1>
-        <p className="para-sante">Accueil Sante</p>
+        <p className="para-sante">Accueil / Sante</p>
       </div>
       <div className="container">
         <div className=" row section-cards text-center ">
           <div className="col-lg-3">
-            <div className="card ">
+            <div className="card cardcard ">
               <div className="icone">
                 <FaUserMd />
               </div>
@@ -225,6 +229,8 @@ function Sante() {
           </div>
         </div>
       </div>
+
+
     </div>
   );
 }
