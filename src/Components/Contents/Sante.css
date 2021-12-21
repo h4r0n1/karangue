@@ -1,37 +1,56 @@
-
-
-.container-santer{
-  background: #FFFFFF;
+.container-santer {
+  background: #ffffff;
 }
-.sante{
-  background-color: #4F83D6;
+.sante {
+  background-color: #4f83d6;
   height: 200px;
-  
 }
-.sante .title{
-  color: #F8F8F8;
+.sante .title {
+  color: #f8f8f8;
   white-space: normal;
   text-align: center;
   font-weight: bold;
 }
-.para-sante{
+.para-sante {
   text-align: center;
-  color: #F8F8F8;
+  color: #f8f8f8;
   font-size: 24px;
   font-weight: bold;
-
 }
-.section-cards{
+.section-cards,
+.image-doctor {
   margin-top: 30px;
 }
-.title-card{
-    font-weight: 600;
+.title-card {
+  font-weight: 600;
 }
-.image{
-  width: 100px;
-  height: 100px;
-
+.icone {
+  font-size: 68px;
+  color: #4f83d6;
 }
-.section-image{
+.section-image {
   margin: auto;
+}
+.contain2 h1 {
+  font-weight: bold;
+}
+.contain2 {
+  margin-top: 60px;
+}
+.contain2 .card {
+  background: #0046c0;
+}
+.icone-icone {
+  height: 100px;
+  width: 100px;
+  background: #f8f8f8;
+  margin: auto;
+  border-radius: 50%;
+  font-size: 50px;
+  color: #4f83d6;
+}
+.contain2 .title-card {
+  color: #f8f8f8;
+  font-weight: bold;
+  font-size: 24px;
 }
