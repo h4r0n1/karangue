@@ -1,17 +1,26 @@
 import React from "react";
-import { Navbar, Nav, NavDropdown } from "react-bootstrap";
+import { Container, Navbar, Nav, NavDropdown } from "react-bootstrap";
 import "./Navbar.css";
 
 import { Link } from "react-router-dom";
 
 const NavbarComponent = () => {
   return (
-    <div>
-      <Navbar bg="transparent" variant="light" sticky="top" expand="lg">
+    <Container>
+      <Navbar
+        bg="light"
+        variant="light"
+        fixed="top"
+        expand="lg"
+        className="p-3"
+      >
         <Navbar.Brand>Karangue</Navbar.Brand>
-        <Navbar.Toggle />
-        <Navbar.Collapse className="text-end mx-4 fw-bold">
-          <Nav className="">
+        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Collapse
+          id="basic-navbar-nav"
+          className="text-end mx-4 fw-bold"
+        >
+          <Nav className="container d-flex justify-content-center">
             <Nav.Link as={Link} to={"/"}>
               Acceuil
             </Nav.Link>
@@ -44,10 +53,13 @@ const NavbarComponent = () => {
             <Nav.Link as={Link} to={"/login"}>
               Connexion
             </Nav.Link>
+            <Nav.Link as={Link} to={"/login"}>
+              Inscription
+            </Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Navbar>
-    </div>
+    </Container>
   );
 };
 

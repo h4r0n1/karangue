@@ -1,0 +1,84 @@
+.banner {
+  position: relative;
+  height: 60vh;
+  width: 100%;
+  background-image: url("/src/images/banner1.jpg");
+  background-size: cover;
+  background-position: center center;
+}
+
+.banner:before {
+  content: "";
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.75;
+  background-color: rgba(7, 39, 90, 0.63);
+}
+
+.banner .banner-infos {
+  position: absolute;
+  top: 50%;
+  transform: translate(-50% -50%);
+  width: 100%;
+  height: auto;
+  text-align: center;
+}
+
+.banner .banner-infos h1 {
+  color: #ffffff;
+  position: relative;
+  font-size: 50px;
+  font-family: sans-serif;
+}
+
+.banner .banner-infos p {
+  color: #ffffff;
+}
+
+.cta_home_btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+}
+
+.cta_home_btn button {
+  margin: 0 15px;
+  font-size: 20px;
+  width: 200px;
+}
+
+.custom_btn_1 {
+  border: 2px solid currentColor !important;
+}
+
+.custom_btn_1:hover {
+  border: 1px solid #0d6bf7 !important;
+  background-color: #0d6bf7 !important;
+  color: #ffffff !important;
+}
+
+.custom_btn_2 {
+  border: none !important;
+}
+
+.custom_btn_2:hover {
+  border: 1px solid #0d6bf7 !important;
+  background-color: transparent !important;
+  color: #ffffff !important;
+}
+
+.about {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+  padding: 30px;
+}
+
+.content p {
+  text-align: justify;
+}

@@ -4,18 +4,36 @@
   padding: 0;
 }
 
-.title p {
-  text-shadow: 11px -7px 24px rgba(0, 0, 0, 0.74);
+.title-sante {
+  position: relative;
+  height: 50vh;
+  width: 100%;
+  background-image: url("/src/images/bannerSante.jpg");
+  background-size: cover;
+  background-position: center center;
+}
+
+.title-infos {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;
+  height: auto;
+  text-align: center;
+}
+
+.title-infos p {
+  font-size: 40px;
+  color: #ffffff;
 }
 
 .section {
-  margin-top: 80px;
 }
 
-.section p {
+/* .section p {
   font-size: 30px;
   margin: 30px;
-}
+} */
 
 .searchBox {
   display: flex;
@@ -62,10 +80,34 @@
   left: 300px;
 }
 
-#hopitaux {
+.hopitaux {
+  position: relative;
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
+  height: 100%;
+  padding: 10px 0;
+}
+
+.hopitaux .myHospital {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 60%;
+}
+
+.hopitaux .myHospital .card {
+  width: 300px;
+  word-wrap: break-word;
+  display: flex;
+  margin: 10px;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0px 0px 60px -26px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 0px 0px 60px -26px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 60px -26px rgba(0, 0, 0, 0.75);
 }
 
 #hopitaux img {
@@ -78,16 +120,15 @@
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-  margin: 80px;
-  width: auto;
+  width: 100%;
 }
 
-.card {
+/* .card {
   margin: 25px 25px 25px 25px;
   border: 1px solid #ffffff;
   border-radius: 10px;
   cursor: pointer;
-  width: auto;
+  width: fit-content;
 }
 
 .card p {
@@ -100,7 +141,7 @@
 
 .card img {
   top: 0;
-}
+} */
 
 .cardContent {
   color: #ffffff;

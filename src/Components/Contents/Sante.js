@@ -2,6 +2,7 @@ import React from "react";
 import "./Sante.css";
 import { BiSearch } from "react-icons/bi";
 import { BsMic } from "react-icons/bs";
+import { MdOutlineLocalHospital } from "react-icons/md";
 import NavbarComponent from "../Navbar/Navbar";
 
 // Import of animate css
@@ -14,11 +15,14 @@ const Sante = () => {
   return (
     <div>
       <NavbarComponent />
-      <div className="container-fluid section">
-        <div className="title">
-          <p className="animate__animated animate__fadeInLeftBig">
-            Sante - l'Hopital ou la Pharmacie la plus proche
-          </p>
+
+      <div className=" section">
+        <div className="title-sante">
+          <div className="title-infos">
+            <p className="animate__animated animate__zoomIn">
+              Sante - l'Hopital ou la Pharmacie la plus proche
+            </p>
+          </div>
         </div>
 
         <div className="searchBox">
@@ -32,34 +36,66 @@ const Sante = () => {
         </div>
 
         {/** == == == Section Hopitaux == == == */}
-        <div id="hopitaux">
-          <div id="myHospital">
+        <div className="hopitaux">
+          <div className="myHospital">
             <div className="card">
-              <img src={hopital} alt="Hopital" />
-              <div className="cardContent">
-                <p>Dakar-Grand-Yoff</p>
-              </div>
+              <MdOutlineLocalHospital />
+              <h1>Pharmacie</h1>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Adipisci vel delectus, animi quasi atque consequuntur nobis nisi
+                ipsa optio.
+              </p>
             </div>
 
             <div className="card">
-              <img src={hopital} alt="Hopiatal" />
-              <div className="cardContent">
-                <p>Dakar-Grand-Yoff</p>
-              </div>
+              <MdOutlineLocalHospital />
+              <h1>Pharmacie</h1>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Adipisci vel delectus, animi quasi atque consequuntur nobis nisi
+                ipsa optio.
+              </p>
             </div>
 
             <div className="card">
-              <img src={hopital} alt="Hopiatal" />
-              <div className="cardContent">
-                <p>Dakar-Grand-Yoff</p>
-              </div>
+              <MdOutlineLocalHospital />
+              <h1>Pharmacie</h1>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Adipisci vel delectus, animi quasi atque consequuntur nobis nisi
+                ipsa optio.
+              </p>
             </div>
 
             <div className="card">
-              <img src={hopital} alt="Hopiatal" />
-              <div className="cardContent">
-                <p>Dakar-Grand-Yoff</p>
-              </div>
+              <MdOutlineLocalHospital />
+              <h1>Pharmacie</h1>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Adipisci vel delectus, animi quasi atque consequuntur nobis nisi
+                ipsa optio.
+              </p>
+            </div>
+
+            <div className="card">
+              <MdOutlineLocalHospital />
+              <h1>Pharmacie</h1>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Adipisci vel delectus, animi quasi atque consequuntur nobis nisi
+                ipsa optio.
+              </p>
+            </div>
+
+            <div className="card">
+              <MdOutlineLocalHospital />
+              <h1>Pharmacie</h1>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Adipisci vel delectus, animi quasi atque consequuntur nobis nisi
+                ipsa optio.
+              </p>
             </div>
           </div>
         </div>
