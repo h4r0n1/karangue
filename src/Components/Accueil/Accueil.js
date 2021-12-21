@@ -1,6 +1,7 @@
 import React from "react";
 import { Button } from "react-bootstrap";
 import NavbarComponent from "../Navbar/Navbar";
+import FooterPage from "../Footer/Footer";
 
 import "./Accueil.css";
 
@@ -8,6 +9,7 @@ import "./Accueil.css";
 import "animate.css";
 
 // Import des images
+import doctor from "../../images/doctor.jpg";
 
 const Accueil = () => {
   return (
@@ -54,7 +56,7 @@ const Accueil = () => {
       </div>
 
       <div className="about">
-        <img src="" alt="" />
+        <img src={doctor} alt="" />
         <div className="about_infos">
           <h1>A propos</h1>
           <p>
@@ -65,6 +67,7 @@ const Accueil = () => {
           </p>
         </div>
       </div>
+      <FooterPage />
     </div>
   );
 };

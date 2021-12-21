@@ -1,3 +1,5 @@
+/** Styling the banner*/
+
 .banner {
   position: relative;
   height: 60vh;
@@ -38,6 +40,8 @@
   color: #ffffff;
 }
 
+/** Styling the buttons */
+
 .cta_home_btn {
   display: flex;
   align-items: center;
@@ -75,10 +79,24 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 10px;
-  padding: 30px;
+  margin: 20px;
+  padding: 60px;
 }
 
-.content p {
+.about img {
+  width: 500px;
+  height: 400px;
+  border-radius: 15px;
+}
+
+.about p {
   text-align: justify;
+}
+
+.about_infos {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  max-width: 500px;
+  margin-left: 50px;
 }

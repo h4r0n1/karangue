@@ -1,4 +1,83 @@
-.footerSection {
-  background-color: #003333;
-  color: #fff;
+/** Styling the footer banner*/
+
+.footer_banner {
+  position: relative;
+  height: 50vh;
+  width: 100%;
+  /* background-image: url("/src/images/banner1.jpg"); */
+  background-color: #f5f5f5;
+  background-size: cover;
+  background-position: center center;
+}
+
+.footer_banner:before {
+  content: "";
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+}
+
+.footer_banner .footer_banner-infos {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+  position: absolute;
+  top: 10%;
+  transform: translate(-50% -50%);
+  width: 100%;
+  height: auto;
+}
+
+/** Styling of the ul & li*/
+.contacts_part,
+.services_part,
+ul {
+  list-style-type: none;
+}
+
+/** Styling the feedback part */
+.feedback_part {
+  display: flex;
+  flex-direction: column;
+}
+
+.feedback_part form {
+  display: flex;
+  flex-direction: column;
+}
+
+.feedback_part form input {
+  margin-top: 30px;
+  width: 300px;
+  height: 35px;
+  outline: none;
+  border-width: 0 0 2px;
+  border-color: blue;
+  background-color: transparent;
+}
+
+.feedback_part form input:focus {
+  border-color: green;
+}
+
+.feedback_part form input::placeholder {
+  margin-top: 15px;
+}
+
+.feedback_part form textarea {
+  margin-top: 40px;
+  background-color: transparent;
+  outline: none;
+  border-width: 0 0 2px;
+  border-color: blue;
+}
+
+.feedback_part form textarea:focus {
+  border-color: green;
+}
+
+.footer_banner .footer_banner-infos button {
+  margin-top: 25px;
 }
